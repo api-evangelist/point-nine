@@ -1,0 +1,76 @@
+aid: point-nine
+name: Point Nine Capital
+description: >-
+  Point Nine Capital is a thesis-driven, early-stage venture capital firm founded in 2011 and
+  headquartered in Berlin, Germany. It is one of Europe's best-known seed investors, specializing in
+  B2B SaaS, B2B marketplaces, developer tools and infrastructure, fintech, digital health, and
+  increasingly AI across digital, physical, and biological domains. Point Nine typically writes
+  initial checks of roughly $1M-$10M (EUR 0.5M-5M) and aims to be the first institutional investor
+  for "v0.9" founders graduating from friends-and-family capital. The firm runs a deliberately small,
+  equal partnership in which each partner works closely with only 6-8 companies at a time to provide
+  deep operational support. Since inception it has backed more than 160 startups across 30+ countries,
+  including early bets on Algolia, Chainalysis, Clio, Contentful, Delivery Hero, Docplanner, Factorial,
+  Front, Loom, Mambu, NexHealth, Revolut, Typeform, Zendesk, and Westwing, with 11+ companies reaching
+  unicorn status.
+image: https://www.pointnine.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Seed
+  - Pre-Seed
+  - Series A
+  - B2B SaaS
+  - Marketplaces
+  - Developer Tools
+  - Fintech
+  - Artificial Intelligence
+  - Europe
+  - Berlin
+  - Germany
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.pointnine.com
+  - type: Portfolio
+    url: https://www.pointnine.com/companies
+  - type: Portfolio
+    url: portfolio/point-nine-portfolio.yml
+  - type: Team
+    url: https://www.pointnine.com/team
+  - type: Team
+    url: team/point-nine-team.yml
+  - type: Blog
+    url: https://writing.pointnine.com
+  - type: Newsletter
+    url: https://writing.pointnine.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/point-nine-capital/
+  - type: Twitter
+    url: https://x.com/pointninecap
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/point-nine-capital
+  - type: Features
+    data:
+      - 'Stage: Pre-seed, Seed, Series A (first institutional check)'
+      - 'Typical check: $1M-$10M (EUR 0.5M-5M initial ticket)'
+      - 'Sectors: B2B SaaS, B2B marketplaces, developer tools & infrastructure, fintech, digital health, AI'
+      - 'Geography: Europe-based, investing globally (160+ startups in 30+ countries)'
+      - 'Founded: 2011'
+      - 'HQ: Berlin, Germany'
+      - 'Notable: 11+ unicorns incl. Algolia, Contentful, Revolut, Zendesk, Delivery Hero, Loom, Mambu'
+    sources:
+      - https://www.pointnine.com
+      - https://www.pointnine.com/companies
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Point Nine Capital
+    url: https://www.pointnine.com
