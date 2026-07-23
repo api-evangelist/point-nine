@@ -3,9 +3,9 @@ method: searched
 source: https://www.pointnine.com/companies
 summary:
   portfolio_total: 174
-  in_network: 36
-  api_providers: 25
-  missing: 138
+  in_network: 174
+  api_providers: 44
+  missing: 0
   stubs_created: 0
 companies:
 - name: 15Five
@@ -20,16 +20,18 @@ companies:
   url: https://aardaia.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aardaia
+  slug: aardaia
+  matched_by: domain
 - name: Aletiq
   url: https://www.aletiq.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aletiq
+  slug: aletiq
+  matched_by: domain
 - name: Algolia
   url: http://www.algolia.com
   status: active
@@ -42,30 +44,34 @@ companies:
   url: https://www.amenitiz.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amenitiz
+  slug: amenitiz
+  matched_by: name-slug
 - name: AMMP
   url: https://www.ammp.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ammp
+  slug: ammp
+  matched_by: domain
 - name: Amperecloud
   url: https://ampere.cloud
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amperecloud
+  slug: amperecloud
+  matched_by: domain
 - name: asgoodasnew
   url: https://asgoodasnew.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asgoodasnew
+  slug: asgoodasnew
+  matched_by: domain
 - name: Async
   url: https://async.com
   status: active
@@ -78,9 +84,10 @@ companies:
   url: https://athenian.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: athenian
+  in_network: true
+  is_api_provider: true
+  slug: athenian
+  matched_by: domain
 - name: Attio
   url: https://www.attio.com
   status: active
@@ -93,65 +100,74 @@ companies:
   url: http://www.automile.io
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: automile
+  in_network: true
+  is_api_provider: true
+  slug: automile
+  matched_by: name-slug
 - name: Back
   url: https://backhq.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: back
+  slug: back
+  matched_by: domain
 - name: Bearer
   url: https://www.bearer.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bearer
+  slug: bearer
+  matched_by: domain
 - name: Bitbond
   url: https://www.bitbond.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitbond
+  slug: bitbond
+  matched_by: domain
 - name: BlueLayer
   url: https://bluelayer.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluelayer
+  slug: bluelayer
+  matched_by: domain
 - name: Brainly
   url: http://brainly.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brainly
+  slug: brainly
+  matched_by: domain
 - name: brightback
   url: https://brightback.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: brightback
+  in_network: true
+  is_api_provider: true
+  slug: brightback
+  matched_by: domain
 - name: CallDesk
   url: https://calldesk.ai
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: calldesk
+  slug: calldesk
+  matched_by: domain
 - name: Candis
   url: http://www.candis.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: candis
+  in_network: true
+  is_api_provider: true
+  slug: candis
+  matched_by: domain
 - name: cargo.one
   url: https://www.cargo.one
   status: active
@@ -180,16 +196,18 @@ companies:
   url: https://circular.io
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circular
+  slug: circular
+  matched_by: name-slug
 - name: claimsforce
   url: https://www.claimsforce.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: claimsforce
+  slug: claimsforce
+  matched_by: domain
 - name: Clio
   url: https://www.clio.com
   status: active
@@ -202,23 +220,26 @@ companies:
   url: https://www.cloudtalk.io
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cloudtalk
+  in_network: true
+  is_api_provider: true
+  slug: cloudtalk
+  matched_by: domain
 - name: combatgent
   url: https://www.combatgent.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: combatgent
+  slug: combatgent
+  matched_by: domain
 - name: Confrere
   url: https://confrere.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: confrere
+  in_network: true
+  is_api_provider: true
+  slug: confrere
+  matched_by: domain
 - name: Contentful
   url: http://www.contentful.com
   status: acquired
@@ -231,86 +252,98 @@ companies:
   url: https://www.couchsurfing.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: couchsurfing
+  slug: couchsurfing
+  matched_by: domain
 - name: Cryptio
   url: https://cryptio.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cryptio
+  slug: cryptio
+  matched_by: domain
 - name: Delivery Hero
   url: https://www.deliveryhero.com
   status: ipo
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: delivery-hero
+  in_network: true
+  is_api_provider: true
+  slug: delivery-hero
+  matched_by: domain
 - name: Detail
   url: https://www.detail.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: detail
+  slug: detail
+  matched_by: domain
 - name: digitaleseiten
   url: http://www.digitaleseiten.de
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: digitaleseiten
+  slug: digitaleseiten
+  matched_by: domain
 - name: Docplanner
   url: http://www.docplanner.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: docplanner
+  slug: docplanner
+  matched_by: domain
 - name: Donna
   url: https://www.donna.legal
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: donna
+  slug: donna
+  matched_by: name-slug
 - name: Draxon
   url: https://www.draxon.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: draxon
+  slug: draxon
+  matched_by: domain
 - name: Duplo
   url: https://tryduplo.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: duplo
+  slug: duplo
+  matched_by: domain
 - name: EnjoyHQ
   url: https://getenjoyhq.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enjoyhq
+  slug: enjoyhq
+  matched_by: domain
 - name: EraDrive
   url: https://www.eradrive.space
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eradrive
+  slug: eradrive
+  matched_by: domain
 - name: Eversports
   url: https://www.eversports.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eversports
+  slug: eversports
+  matched_by: domain
 - name: Factorial
   url: https://factorialhr.com
   status: active
@@ -323,37 +356,42 @@ companies:
   url: https://figures.hr
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: figures
+  slug: figures
+  matched_by: domain
 - name: Findable
   url: https://www.findable.no
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: findable
+  slug: findable
+  matched_by: name-slug
 - name: Finiata
   url: https://www.finiata.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: finiata
+  slug: finiata
+  matched_by: domain
 - name: float
   url: https://float.build
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: float
+  slug: float
+  matched_by: domain
 - name: Forithmus
   url: https://forithmus.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: forithmus
+  in_network: true
+  is_api_provider: true
+  slug: forithmus
+  matched_by: domain
 - name: FreeAgent
   url: http://www.freeagent.com
   status: ipo
@@ -366,9 +404,9 @@ companies:
   url: http://frontapp.com
   status: active
   source: https://www.pointnine.com/companies
-  slug: front
+  slug: frontapp
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Geckoboard
   url: https://www.geckoboard.com
@@ -382,9 +420,10 @@ companies:
   url: http://gengo.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gengo
+  in_network: true
+  is_api_provider: true
+  slug: gengo
+  matched_by: domain
 - name: GitBook
   url: https://www.gitbook.com
   status: active
@@ -405,143 +444,162 @@ companies:
   url: https://goodays.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: goodays
+  in_network: true
+  is_api_provider: true
+  slug: goodays
+  matched_by: domain
 - name: GoOpti
   url: https://www.goopti.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goopti
+  slug: goopti
+  matched_by: domain
 - name: GoSpotCheck
   url: https://www.gospotcheck.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gospotcheck
+  in_network: true
+  is_api_provider: true
+  slug: gospotcheck
+  matched_by: domain
 - name: Gourmey
   url: https://gourmey.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gourmey
+  slug: gourmey
+  matched_by: domain
 - name: Graneet
   url: https://www.graneet.fr
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: graneet
+  slug: graneet
+  matched_by: domain
 - name: Grasp
   url: https://grasp.study
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grasp
+  slug: grasp
+  matched_by: domain
 - name: Gravity Sketch
   url: https://www.gravitysketch.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gravity-sketch
+  slug: gravity-sketch
+  matched_by: domain
 - name: handshake
   url: https://www.handshake.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: handshake
+  slug: handshake
+  matched_by: name-slug
 - name: HappyCo
   url: https://happy.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: happyco
+  slug: happyco
+  matched_by: domain
 - name: Helpling
   url: https://www.helpling.de/de_en
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: helpling
+  slug: helpling
+  matched_by: domain
 - name: HeyGo
   url: https://www.heygo.com
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heygo
+  slug: heygo
+  matched_by: domain
 - name: Honey
   url: https://honey.is
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: honey
+  slug: honey
+  matched_by: domain
 - name: Hula Earth
   url: https://hula.earth
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hula-earth
+  slug: hula-earth
+  matched_by: domain
 - name: Hull
   url: http://www.hull.io
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hull
+  slug: hull
+  matched_by: domain
 - name: Humanity
   url: https://www.humanity.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humanity
+  slug: humanity
+  matched_by: domain
 - name: Hundeland
   url: http://www.hundeland.de
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hundeland
+  slug: hundeland
+  matched_by: domain
 - name: incident.io
   url: https://incident.io
   status: active
   source: https://www.pointnine.com/companies
-  slug: incident-io
+  slug: brisk-teaching
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: inFakt
   url: https://www.infakt.pl
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infakt
+  slug: infakt
+  matched_by: domain
 - name: Infogram
   url: https://infogram.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infogram
+  slug: infogram
+  matched_by: domain
 - name: Intenseye
   url: https://www.intenseye.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intenseye
+  slug: intenseye
+  matched_by: domain
 - name: Jobber
   url: https://getjobber.com
   status: active
@@ -586,44 +644,50 @@ companies:
   url: https://www.keynua.com/en
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keynua
+  slug: keynua
+  matched_by: domain
 - name: KISI
   url: https://getkisi.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kisi
+  in_network: true
+  is_api_provider: true
+  slug: kisi
+  matched_by: domain
 - name: kitchenstories
   url: http://kitchenstories.de
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kitchenstories
+  in_network: true
+  is_api_provider: true
+  slug: kitchenstories
+  matched_by: name-slug
 - name: Laserhub
   url: https://laserhub.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: laserhub
+  slug: laserhub
+  matched_by: domain
 - name: lessonleap
   url: https://lessonleap.com/en
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lessonleap
+  slug: lessonleap
+  matched_by: domain
 - name: LIFT
   url: https://www.liftaircraft.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lift
+  slug: lift
+  matched_by: domain
 - name: Loom
   url: http://www.loom.com
   status: acquired
@@ -636,44 +700,50 @@ companies:
   url: https://www.lottielab.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lottielab
+  slug: lottielab
+  matched_by: name-slug
 - name: Madvertise
   url: https://madvertise.com/en
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: madvertise
+  slug: madvertise
+  matched_by: domain
 - name: Mambu
   url: http://www.mambu.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mambu
+  slug: mambu
+  matched_by: domain
 - name: Marley Spoon
   url: http://www.marleyspoon.com
   status: ipo
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marley-spoon
+  slug: marley-spoon
+  matched_by: domain
 - name: Mason
   url: https://www.trymason.com
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mason
+  in_network: true
+  is_api_provider: true
+  slug: mason
+  matched_by: name-slug
 - name: Mavenoid
   url: http://www.mavenoid.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mavenoid
+  slug: mavenoid
+  matched_by: domain
 - name: Mention
   url: http://mention.com
   status: acquired
@@ -686,129 +756,146 @@ companies:
   url: https://merxu.com/en
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: merxu
+  slug: merxu
+  matched_by: domain
 - name: Metalshub
   url: https://www.metals-hub.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metalshub
+  slug: metalshub
+  matched_by: domain
 - name: missionbarns
   url: https://missionbarns.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: missionbarns
+  slug: missionbarns
+  matched_by: domain
 - name: MisterSpex
   url: http://www.misterspex.de
   status: ipo
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: misterspex
+  slug: misterspex
+  matched_by: domain
 - name: Moai.cash
   url: https://www.moai.cash
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moaicash
+  slug: moaicash
+  matched_by: domain
 - name: Mokker.ai
   url: https://mokker.ai
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mokkerai
+  slug: mokkerai
+  matched_by: domain
 - name: Momox
   url: http://www.momox.de
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: momox
+  slug: momox
+  matched_by: domain
 - name: NexHealth
   url: https://www.nexhealth.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nexhealth
+  in_network: true
+  is_api_provider: true
+  slug: nexhealth
+  matched_by: domain
 - name: Oferteo
   url: http://www.oferteo.pl
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oferteo
+  slug: oferteo
+  matched_by: domain
 - name: Omnea
   url: https://www.omnea.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omnea
+  slug: omnea
+  matched_by: domain
 - name: Ontruck
   url: https://www.ontruck.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ontruck
+  slug: ontruck
+  matched_by: domain
 - name: Pento
   url: https://www.pento.io
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pento
+  slug: pento
+  matched_by: domain
 - name: persistiq
   url: https://persistiq.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: persistiq
+  in_network: true
+  is_api_provider: true
+  slug: persistiq
+  matched_by: domain
 - name: Petsapp
   url: https://petsapp.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: petsapp
+  slug: petsapp
+  matched_by: domain
 - name: PlayPlay
   url: https://playplay.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playplay
+  slug: playplay
+  matched_by: domain
 - name: Polar Analytics
   url: https://www.polaranalytics.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polar-analytics
+  slug: polar-analytics
+  matched_by: domain
 - name: Poolside
   url: https://poolside.ai
   status: active
   source: https://www.pointnine.com/companies
-  slug: poolside-ai
+  slug: poolside
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Preply
   url: https://preply.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: preply
+  in_network: true
+  is_api_provider: true
+  slug: preply
+  matched_by: domain
 - name: Procurify
   url: https://www.procurify.com
   status: active
@@ -821,129 +908,146 @@ companies:
   url: https://procuros.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: procuros
+  in_network: true
+  is_api_provider: true
+  slug: procuros
+  matched_by: domain
 - name: Project Europe
   url: https://www.projecteurope.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: project-europe
+  slug: project-europe
+  matched_by: domain
 - name: propertybase
   url: https://www.propertybase.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: propertybase
+  slug: propertybase
+  matched_by: domain
 - name: Purmeo
   url: https://purmeo.de
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: purmeo
+  slug: purmeo
+  matched_by: domain
 - name: Qlub
   url: https://qlub.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qlub
+  slug: qlub
+  matched_by: domain
 - name: Qwilr
   url: https://qwilr.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qwilr
+  slug: qwilr
+  matched_by: domain
 - name: REKKI
   url: https://rekki.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rekki
+  in_network: true
+  is_api_provider: true
+  slug: rekki
+  matched_by: domain
 - name: rekord
   url: https://www.rekordsoftware.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rekord
+  slug: rekord
+  matched_by: domain
 - name: Remerge
   url: https://www.remerge.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: remerge
+  slug: remerge
+  matched_by: domain
 - name: Reonic
   url: https://reonic.com/en-gb
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: reonic
+  in_network: true
+  is_api_provider: true
+  slug: reonic
+  matched_by: domain
 - name: rerun
   url: https://rerun.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rerun
+  slug: rerun
+  matched_by: domain
 - name: Revolut
   url: https://revolut.com
   status: active
   source: https://www.pointnine.com/companies
-  slug: neobanks
+  slug: revolut
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: riskmethods
   url: http://www.riskmethods.net
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: riskmethods
+  slug: riskmethods
+  matched_by: domain
 - name: Rizm
   url: https://www.rizm.de
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rizm
+  slug: rizm
+  matched_by: domain
 - name: Root Global
   url: https://www.rootglobal.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: root-global
+  slug: root-global
+  matched_by: domain
 - name: samedi
   url: https://www.samedi.de/en
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: samedi
+  slug: samedi
+  matched_by: domain
 - name: Savedo
   url: https://www.savedo.de
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: savedo
+  slug: savedo
+  matched_by: domain
 - name: Scondoo
   url: http://scondoo.de
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scondoo
+  slug: scondoo
+  matched_by: domain
 - name: ScreenCloud
   url: https://screen.cloud
   status: acquired
@@ -956,44 +1060,50 @@ companies:
   url: https://www.sensmore.ai
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sensmore
+  slug: sensmore
+  matched_by: domain
 - name: Sereact
   url: https://sereact.ai
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sereact
+  slug: sereact
+  matched_by: domain
 - name: Server Density
   url: https://www.serverdensity.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: server-density
+  slug: server-density
+  matched_by: domain
 - name: Shapr3D
   url: https://www.shapr3d.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shapr3d
+  slug: shapr3d
+  matched_by: domain
 - name: Showbie
   url: http://www.showbie.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: showbie
+  slug: showbie
+  matched_by: domain
 - name: Soba
   url: https://www.soba.xyz
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soba
+  slug: soba
+  matched_by: domain
 - name: Soda
   url: https://www.soda.io
   status: active
@@ -1006,51 +1116,58 @@ companies:
   url: https://www.solarize.de/en/software
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solarize
+  slug: solarize
+  matched_by: domain
 - name: Spacebase
   url: https://www.spacebase.com/en
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spacebase
+  slug: spacebase
+  matched_by: domain
 - name: Sqreen
   url: https://www.sqreen.io
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sqreen
+  slug: sqreen
+  matched_by: name-slug
 - name: StarOfService
   url: http://www.starofservice.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starofservice
+  slug: starofservice
+  matched_by: domain
 - name: Storefront
   url: https://www.thestorefront.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: storefront
+  slug: storefront
+  matched_by: domain
 - name: studocu
   url: http://www.studocu.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: studocu
+  slug: studocu
+  matched_by: domain
 - name: StyleSeat
   url: https://www.styleseat.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: styleseat
+  slug: styleseat
+  matched_by: domain
 - name: superannotate
   url: https://superannotate.com
   status: unknown
@@ -1071,44 +1188,50 @@ companies:
   url: https://www.tengo.cc
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tengo
+  slug: tengo
+  matched_by: domain
 - name: Thalamed
   url: http://www.thalamed.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thalamed
+  slug: thalamed
+  matched_by: domain
 - name: TheBrief
   url: https://www.creatopy.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thebrief
+  slug: thebrief
+  matched_by: name-slug
 - name: Tier
   url: https://www.tier.app
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tier
+  slug: tier
+  matched_by: name-slug
 - name: TradeLink
   url: https://www.tradelink.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tradelink
+  slug: tradelink
+  matched_by: domain
 - name: tripaneer
   url: https://www.tripaneer.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tripaneer
+  slug: tripaneer
+  matched_by: domain
 - name: Typeform
   url: http://www.typeform.com
   status: active
@@ -1121,9 +1244,10 @@ companies:
   url: https://unamo.com
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unamo
+  slug: unamo
+  matched_by: domain
 - name: Unbounce
   url: http://unbounce.com
   status: acquired
@@ -1136,44 +1260,50 @@ companies:
   url: https://upciti.com/en
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upciti
+  slug: upciti
+  matched_by: domain
 - name: UpCodes
   url: https://up.codes
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upcodes
+  slug: upcodes
+  matched_by: domain
 - name: Vend
   url: http://www.vendhq.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vend
+  slug: vend
+  matched_by: domain
 - name: Vercept
   url: https://vercept.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vercept
+  slug: vercept
+  matched_by: domain
 - name: Vev
   url: https://about.vev.co
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vev
+  slug: vev
+  matched_by: name-slug
 - name: Westwing
   url: https://www.westwing.de
   status: ipo
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: westwing
+  slug: westwing
+  matched_by: domain
 - name: Whereby
   url: https://whereby.com
   status: active
@@ -1186,51 +1316,58 @@ companies:
   url: https://wikifarmer.com/market/en/about-us
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wikifarmer
+  slug: wikifarmer
+  matched_by: domain
 - name: Workerbase
   url: https://workerbase.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workerbase
+  slug: workerbase
+  matched_by: domain
 - name: xChange
   url: https://container-xchange.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xchange
+  slug: xchange
+  matched_by: domain
 - name: Xeneta
   url: https://www.xeneta.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: xeneta
+  in_network: true
+  is_api_provider: true
+  slug: xeneta
+  matched_by: domain
 - name: Yogaia
   url: https://yogaia.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yogaia
+  slug: yogaia
+  matched_by: domain
 - name: Zauber
   url: https://gozauber.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zauber
+  slug: zauber
+  matched_by: domain
 - name: Zenaton
   url: https://zenaton.com
   status: acquired
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zenaton
+  slug: zenaton
+  matched_by: domain
 - name: Zendesk
   url: https://www.zendesk.com
   status: ipo
@@ -1251,9 +1388,10 @@ companies:
   url: https://zentist.io
   status: active
   source: https://www.pointnine.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zentist
+  slug: zentist
+  matched_by: domain
 - name: Zype
   url: http://www.zype.com
   status: acquired
