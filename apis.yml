@@ -12,6 +12,17 @@ description: >-
   including early bets on Algolia, Chainalysis, Clio, Contentful, Delivery Hero, Docplanner, Factorial,
   Front, Loom, Mambu, NexHealth, Revolut, Typeform, Zendesk, and Westwing, with 11+ companies reaching
   unicorn status.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
