@@ -1,4 +1,53 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: point-nine
-leads: []
+leads:
+- name: Donna
+  url: https://www.donna.legal
+  suggested_slug: donna-legal
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false
+- name: GitBook
+  url: https://www.gitbook.com
+  suggested_slug: gitbook-com
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false
+- name: handshake
+  url: https://www.handshake.com
+  suggested_slug: handshake-com
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false
+- name: Mason
+  url: https://www.trymason.com
+  suggested_slug: trymason-com
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false
+- name: ScreenCloud
+  url: https://screen.cloud
+  suggested_slug: screen-cloud
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false
+- name: TheBrief
+  url: https://www.creatopy.com
+  suggested_slug: creatopy-com
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false
+- name: Tier
+  url: https://www.tier.app
+  suggested_slug: tier
+  sector: ''
+  source_vc: point-nine
+  source: https://www.pointnine.com/companies
+  stub_created: false

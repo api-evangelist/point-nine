@@ -3,9 +3,9 @@ method: searched
 source: https://www.pointnine.com/companies
 summary:
   portfolio_total: 174
-  in_network: 174
-  api_providers: 44
-  missing: 0
+  in_network: 167
+  api_providers: 47
+  missing: 7
   stubs_created: 0
 companies:
 - name: 15Five
@@ -38,7 +38,7 @@ companies:
   source: https://www.pointnine.com/companies
   slug: algolia
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Amenitiz
   url: https://www.amenitiz.io
@@ -300,10 +300,10 @@ companies:
   url: https://www.donna.legal
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: donna
-  matched_by: name-slug
+  x-name-collision: donna
+  suggested_slug: donna-legal
 - name: Draxon
   url: https://www.draxon.com
   status: active
@@ -406,7 +406,7 @@ companies:
   source: https://www.pointnine.com/companies
   slug: frontapp
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Geckoboard
   url: https://www.geckoboard.com
@@ -428,10 +428,10 @@ companies:
   url: https://www.gitbook.com
   status: active
   source: https://www.pointnine.com/companies
-  slug: gitbook
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: gitbook
+  suggested_slug: gitbook-com
 - name: Gladly
   url: https://www.gladly.com
   status: active
@@ -500,10 +500,10 @@ companies:
   url: https://www.handshake.com
   status: unknown
   source: https://www.pointnine.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: handshake
-  matched_by: name-slug
+  x-name-collision: handshake
+  suggested_slug: handshake-com
 - name: HappyCo
   url: https://happy.co
   status: active
@@ -557,7 +557,7 @@ companies:
   status: acquired
   source: https://www.pointnine.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: humanity
   matched_by: domain
 - name: Hundeland
@@ -732,10 +732,10 @@ companies:
   url: https://www.trymason.com
   status: dead
   source: https://www.pointnine.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: mason
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: mason
+  suggested_slug: trymason-com
 - name: Mavenoid
   url: http://www.mavenoid.com
   status: active
@@ -884,9 +884,9 @@ companies:
   url: https://poolside.ai
   status: active
   source: https://www.pointnine.com/companies
-  slug: poolside
+  slug: poolside-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Preply
   url: https://preply.com
@@ -1052,10 +1052,10 @@ companies:
   url: https://screen.cloud
   status: acquired
   source: https://www.pointnine.com/companies
-  slug: screencloud
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: screencloud
+  suggested_slug: screen-cloud
 - name: Sensmore
   url: https://www.sensmore.ai
   status: active
@@ -1204,18 +1204,17 @@ companies:
   url: https://www.creatopy.com
   status: active
   source: https://www.pointnine.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: thebrief
-  matched_by: name-slug
+  x-name-collision: thebrief
+  suggested_slug: creatopy-com
 - name: Tier
   url: https://www.tier.app
   status: active
   source: https://www.pointnine.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: tier
-  matched_by: name-slug
+  suggested_slug: tier
 - name: TradeLink
   url: https://www.tradelink.co
   status: active
@@ -1398,5 +1397,5 @@ companies:
   source: https://www.pointnine.com/companies
   slug: zype
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
